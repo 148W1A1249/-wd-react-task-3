@@ -41,10 +41,10 @@ function Sidebar() {
                 </Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link collapsed"  data-toggle="collapse" data-target="#collapseTwo"
+                <Link to='/login' className="nav-link collapsed"  data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i className="fas fa-fw fa-wrench"></i>
-                    <span>products</span>
+                    <span>User Login</span>
                 </Link>
             </li>
 
